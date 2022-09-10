@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://guzmanr04.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Ramon G."
 theme: "toha"
 
 # Manage languages
@@ -47,11 +47,11 @@ params:
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
     main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    inverted: /images/site/Profile.jpg
+    favicon: /images/author/Profile.jpg
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/guzmanr04/guzmanr04.github.io.git
   # Default branch of your Git repo
   gitBranch: main
 
@@ -69,7 +69,7 @@ params:
   features:
     # Enable and configure portfolio
     portfolio:
-      enable: true
+      enable: false
     # Enable and configure blog posts
     blog:
       enable: true
@@ -88,7 +88,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -128,7 +128,7 @@ params:
       enabled: true
       # Google Analytics
       google:
-        id: G-H4LBG7NDFZ
+        id: G-7W7NTPMDFR
       # # CounterDev
       # counterDev:
       #   id: <your counterdev id>
@@ -156,7 +156,7 @@ params:
   enableTags: true
 
   # Specify whether to show flag in the language selector. Default is true.
-  showFlags: true
+  showFlags: false
 
   # If you want to use different country flag for a language, specify them here.
   # flagOverwrites:
@@ -184,7 +184,7 @@ params:
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
     newsletter:
-      enable: true
+      enable: false
       provider: mailchimp
       mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
